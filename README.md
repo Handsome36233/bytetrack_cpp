@@ -1,2 +1,16 @@
 # bytetrack_cpp
-This project uses yolov8 combined with bytetrack to achieve multi-target tracking
+
+对 https://github.com/ifzhang/ByteTrack/tree/main 项目的c++复现
+
+编译
+
+```shell
+mkdir build && cd build
+cmake .. && make
+```
+
+运行
+
+```shell
+./demo ../checkpoints/yolov8n.onnx ./test_video.mp4
+```
