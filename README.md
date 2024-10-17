@@ -1,6 +1,8 @@
 # bytetrack_cpp
 
-对 https://github.com/ifzhang/ByteTrack/tree/main 项目的c++复现
+对 https://github.com/ifzhang/ByteTrack/tree/main 项目的c++复现，检测器换成了yolo
+
+8
 
 编译
 
