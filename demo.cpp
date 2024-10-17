@@ -38,7 +38,7 @@ int main(int argc, char* argv[]) {
     while (cap.read(frame)) {
         std::vector<Detection> results = detector.processFrame(frame);
         std::vector<STrack> tracked_stracks = tracker.update(results);
-        // 绘制检测框
+
         for (auto& track : tracked_stracks) {
             int x1 = (int)track.tlwh()[0];
             int y1 = (int)track.tlwh()[1];
