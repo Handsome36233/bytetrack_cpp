@@ -1,3 +1,5 @@
+
+
 # bytetrack_cpp
 
 对 https://github.com/ifzhang/ByteTrack/tree/main 项目的c++复现，检测器换成了yolov8
@@ -14,3 +16,5 @@ cmake .. && make
 ```shell
 ./demo ../checkpoints/yolov8n.onnx ./test_video.mp4
 ```
+
+在显示窗口中按 `q` 退出。
